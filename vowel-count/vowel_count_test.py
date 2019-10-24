@@ -7,5 +7,6 @@ class SolutionTest(unittest.TestCase):
         self.assertEquals(1, vowel_count("python"))
         self.assertEquals(0, vowel_count("zzz"))
 
+
 if __name__ == '__main__':
     unittest.main()
