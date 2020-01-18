@@ -1,4 +1,4 @@
-def get_middle(str):
+def get_middle(str: str) -> str:
     length = len(str)
     mid_index = length // 2
 
