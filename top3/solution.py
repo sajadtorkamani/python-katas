@@ -8,7 +8,7 @@ def top3(products, amounts, prices):
     return [pair[0] for pair in sorted(totals.items(), key=lambda x: x[1], reverse=True)[:3]]
 
 
-""""
+"""
 JavaScript equivalent is so much more readable
 const top3 = (products, amounts, prices) = > {
     return products
@@ -20,4 +20,4 @@ const top3 = (products, amounts, prices) = > {
       .slice(0, 3)
       .map(product= > product.name)
 }
-""""
+"""
