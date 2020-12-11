@@ -6,3 +6,4 @@ def find_all(haystack, needle):
             indices.append(index)
 
     return indices
+
