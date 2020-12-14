@@ -34,3 +34,4 @@ def declare_winner(fighter_a, fighter_b, first_fighter_name):
         second_fighter.attack(first_fighter)
         if first_fighter.is_dead():
             return second_fighter.name
+
